@@ -16,6 +16,8 @@
     {{-- Block Styles --}}
     @yield('styles')
 
+    @stack('styles')
+
     <link rel="stylesheet" href="{{ asset('mazer/vendors/perfect-scrollbar/perfect-scrollbar.css') }}">
     <link rel="stylesheet" href="{{ asset('mazer/vendors/bootstrap-icons/bootstrap-icons.css') }}">
     <link rel="stylesheet" href="{{ asset('mazer/css/app.css') }}">
@@ -38,11 +40,11 @@
             <footer>
                 <div class="footer clearfix mb-0 text-muted">
                     <div class="float-start">
-                        <p>2021 &copy; Mazer</p>
+                        <p>Modified by Revalina Fitriani</p>
                     </div>
                     <div class="float-end">
                         <p>Crafted with <span class="text-danger"><i class="bi bi-heart"></i></span> by 
-                           <a href="http://ahmadsaugi.com">A. Saugi</a></p>
+                           <a href="http://ahmadsaugi.com">A. Saugi - Mazer Template</a></p>
                     </div>
                 </div>
             </footer>
@@ -53,6 +55,7 @@
     <script src="{{ asset('mazer/js/bootstrap.bundle.min.js') }}"></script>
 
     @yield('js')
+    @stack('js')
 
     <script src="{{ asset('mazer/js/main.js') }}"></script>
 </body>
