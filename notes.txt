@@ -1,0 +1,13 @@
+File export database bernama: db_lms_aoptestcode.sql
+Dengan isi data login sebagai berikut:
+
+- Admin
+johndoe@gmail.com
+12345678
+
+- Librarian
+laura@gmail.com
+12345678
+
+Best Regards,
+Revalina Fitriani
